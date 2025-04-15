@@ -78,7 +78,8 @@ work:
     date_start: 2024-06-01
     date_end: 2024-09-01
     summary: |
-      Built and optimized load forecasting models using GRU, LSTM, and XGBoost with MAPE of 0.7–0.8%. Integrated weather data and delivered insights to support AI-based energy planning.
+      Built and optimized load forecasting models using GRU, LSTM, and XGBoost with MAPE of 0.7–0.8%. Integrated weather 
+      data and delivered insights to support AI-based energy planning.
   - position: Data Management Analyst (Contract)
     company_name: PT Pertamina Hulu Rokan
     company_url: ''
