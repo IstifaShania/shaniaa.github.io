@@ -46,8 +46,8 @@ interests:
 education:
   - area: Master of Science in Informatics (Data Science & AI)
     institution: Bandung Institute of Technology
-    date_start: 2023-08-01
-    date_end: 2025-04-25
+    date_start: "2023-08-01"
+    date_end: "2025-04-25"
     summary: |
       Thesis explored how controlled data variations affect predictive model performance, with refined strategies to ensure accuracy under uncertainty. Coursework covered Applied Research, Machine Learning, Business Intelligence, and AI Modeling. Supervised by [Dr. Nur Ulfa Maulidevi, S.T, M.Sc.](https://itb.ac.id/staf/profil/nur-ulfa-maulidevi).
 
@@ -59,8 +59,8 @@ education:
       - Data Visualization and Data Story Telling
   - area: Bachelor of Science in Electronics and Instrumentation
     institution: Universitas Gadjah Mada
-    date_start: 2016-08-01
-    date_end: 2020-11-01
+    date_start: "2016-08-01"
+    date_end: "2020-11-01"
     summary: |
       Developed a predictive model for fluoride levels in tea using sensor data. Coursework emphasized machine learning, statistic, automation. Supervised by [Dr. Danang Lelono, S.Si., M.T](https://acadstaff.ugm.ac.id/danang)
 
@@ -75,8 +75,8 @@ work:
     company_name: PT PLN (Persero)
     company_url: ''
     company_logo: ''
-    date_start: 2024-06-01
-    date_end: 2024-09-01
+    date_start: "2024-06-01"
+    date_end: "2024-09-01"
     summary: |
       Built and optimized load forecasting models using GRU, LSTM, and XGBoost with MAPE of 0.7–0.8%. Integrated weather 
       data and delivered insights to support AI-based energy planning.
@@ -85,8 +85,8 @@ work:
     company_name: PT Pertamina Hulu Rokan
     company_url: ''
     company_logo: ''
-    date_start: 2022-01-01
-    date_end: 2022-08-01
+    date_start: "2022-01-01"
+    date_end: "2022-08-01"
     summary: |
       Oversaw digital transformation tracking, dashboarding, and SAP-integrated reporting for performance monitoring in upstream oil & gas.
 
@@ -94,8 +94,8 @@ work:
     company_name: PT Voksel Electric Tbk
     company_url: ''
     company_logo: ''
-    date_start: 2021-04-01
-    date_end: 2021-07-01
+    date_start: "2021-04-01"
+    date_end: "2021-07-01"
     summary: |
       Proposed data-driven process improvements in manufacturing. Collaborated with directors on operational efficiency initiatives.
 
@@ -103,8 +103,8 @@ work:
     company_name: PT Pertamina EP Cepu
     company_url: ''
     company_logo: ''
-    date_start: 2018-12-01
-    date_end: 2019-01-31
+    date_start: "2018-12-01"
+    date_end: "2019-01-31"
     summary: |
       Evaluated flowmeter systems in utility sites. Improved placement accuracy for enhanced measurement reliability.
 
