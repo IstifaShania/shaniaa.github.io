@@ -57,14 +57,13 @@ sections:
     content:
       title: Recent Publications
       text: ""
-      filters:
-        folders:
+      filters:        folders:
           - publication
-        exclude_featured: false    design:
-      view: citation
-  - block: collection
+        exclude_featured: false
+    design:
+      view: citation  - block: collection
     id: talks
-    draft: true# Hidden but preserved for future use
+    draft: true  # Hidden but preserved for future use
     content:
       title: Recent & Upcoming Talks
       filters:
