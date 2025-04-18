@@ -23,11 +23,11 @@ At its core, **MCP** acts as the bridge between an individual agent and the tool
 
 This is where **A2A (Agent-to-Agent)** comes in. A2A is a protocol designed to allow agents to discover, communicate, and collaborate with one another. Imagine a scenario where one agent handles scheduling, another manages document summarization, and a third interacts with external APIs. Through A2A, these agents can delegate tasks, share state, or orchestrate a sequence of actions collaboratively—without human intervention. It transforms isolated automations into **interoperable ecosystems**.
 
-## 🚀 Why It Matters Now: Google's A2A Push
+## 🚀 Why It Matters Now: Google’s A2A Push
 
 In April 2025, Google officially announced an **open specification for the A2A protocol**, calling it "a new era of agent interoperability." The announcement emphasized that future enterprise workflows will not rely on a single "super-agent," but instead on **a network of lightweight, specialized agents** that collaborate effectively. According to the Google Developers Blog, A2A introduces structured communication primitives like capability cards, messaging schemas, and authentication standards to make this collaboration both secure and flexible.
 
-Meanwhile, **MCP** was quietly integrated into various agentic architectures over the past year, often embedded into LangChain-style frameworks and custom agent platforms. The role of MCP became especially visible during Google's demonstration, where each agent used its own MCP stack to access internal tooling, while A2A enabled them to hand off tasks intelligently across agents.
+Meanwhile, **MCP** was quietly integrated into various agentic architectures over the past year, often embedded into LangChain-style frameworks and custom agent platforms. The role of MCP became especially visible during Google’s demonstration, where each agent used its own MCP stack to access internal tooling, while A2A enabled them to hand off tasks intelligently across agents.
 
 ## 🌐 Echoes from Other Tech Giants
 
@@ -41,7 +41,7 @@ Meanwhile, **Amazon AWS** introduced modular agent frameworks using **Bedrock an
 
 The distinction is clear: **MCP is about what an agent can do**, while **A2A is about what agents can do together**. The future of AI lies not in isolated intelligence, but in **coordinated, collaborative networks of autonomous systems**. And with the world's biggest tech players betting on this future, we are witnessing the early steps of a paradigm shift.
 
-As we move forward, tools, frameworks, and even organizational structures will need to evolve—adapting to this new world where agents aren't just tools, but teammates.
+As we move forward, tools, frameworks, and even organizational structures will need to evolve—adapting to this new world where agents aren’t just tools, but teammates.
 
 {{% callout note %}}
 💡 **TL;DR**: MCP lets agents access tools. A2A lets agents collaborate. Together, they define the next generation of intelligent systems.
@@ -49,33 +49,16 @@ As we move forward, tools, frameworks, and even organizational structures will n
 
 ## 📊 Visual Example
 
-Here's a visual illustration of how A2A connects agents while MCP manages their individual capabilities:
+Here’s a visual illustration of how A2A connects agents while MCP manages their individual capabilities:
 
-```
-+-----------------+       +-----------------+       +-----------------+
-|                 |       |                 |       |                 |
-|  Agent 1        |       |  Agent 2        |       |  Agent 3        |
-|  (Scheduling)   | <---> |  (Document      | <---> |  (API           |
-|                 |  A2A  |   Processing)   |  A2A  |   Integration)  |
-|                 |       |                 |       |                 |
-+-----------------+       +-----------------+       +-----------------+
-        |                         |                         |
-        | MCP                     | MCP                     | MCP
-        v                         v                         v
-+-----------------+       +-----------------+       +-----------------+
-|                 |       |                 |       |                 |
-|  Tools &        |       |  Tools &        |       |  Tools &        |
-|  Resources      |       |  Resources      |       |  Resources      |
-|                 |       |                 |       |                 |
-+-----------------+       +-----------------+       +-----------------+
-```
+![A2A vs MCP Diagram](images/a2a-vs-mcp-diagram.gif)
 
 ## 🔗 Learn More
 
-- [Google AI Blog on LLM Agents](https://ai.googleblog.com/2023/05/introduction-to-large-language-model.html)
-- [NVIDIA AI Research on Multi-Agent Systems](https://www.nvidia.com/en-us/research/ai-research/)
-- [Microsoft Azure AI - Autonomous Systems](https://azure.microsoft.com/en-us/solutions/ai/autonomous-systems/)
-- [Amazon AWS Bedrock Models and Capabilities](https://aws.amazon.com/bedrock/)
+- [Google Developer Blog – A2A Protocol](https://developers.googleblog.com/en/a2a-a-new-era-of-agent-interoperability/)
+- [NVIDIA GTC 2025 Keynote Recap](https://www.nvidia.com/gtc)
+- [Microsoft Azure AI Studio](https://azure.microsoft.com/en-us/products/ai-studio/)
+- [Amazon Bedrock + JumpStart Overview](https://aws.amazon.com/bedrock/)
 
 ---
 
