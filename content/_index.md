@@ -26,10 +26,10 @@ sections:
           # Add your image background to `assets/media/`.
           filename: stacked-peaks.svg
           filters:
-            brightness: 1.0
-          size: cover
+            brightness: 1.0          size: cover
           position: center
-          parallax: false  - block: markdown
+          parallax: false
+  - block: markdown
     content:
       title: '📚 My Research'
       subtitle: ''
@@ -42,9 +42,9 @@ sections:
 
         ✨ I'm always open to collaboration, especially on projects that align with SDGs, intelligent automation, or human-centered AI.
     design:
-      columns: '1'
-  - block: collection
+      columns: '1'  - block: collection
     id: papers
+    draft: true  # Hidden but preserved for future use
     content:
       title: Featured Publications
       filters:

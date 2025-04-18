@@ -3,7 +3,7 @@
 title: Istifa Shania Putri
 
 # Name pronunciation (optional)
-name_pronunciation: Istifa Shania
+name_pronunciation: ""
 
 # Full name (for SEO)
 first_name: Istifa
