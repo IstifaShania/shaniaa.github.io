@@ -40,10 +40,10 @@ sections:
 
         My research combines quantitative modeling, AI system design, and behavioral insights to drive innovation, especially where sustainability and efficiency meet.        ✨ I'm always open to collaboration, especially on projects that align with SDGs, intelligent automation, or human-centered AI.
     design:
-      columns: '1'
-  - block: collection
+      columns: '1'  - block: collection
     id: papers
-    draft: true  # Hidden but preserved for future use    content:
+    draft: true  # Hidden but preserved for future use
+    content:
       title: Featured Publications
       filters:
         folders:
