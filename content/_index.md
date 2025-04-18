@@ -22,11 +22,11 @@ sections:
       css_class: dark
       background:
         color: black
-        image:
-          # Add your image background to `assets/media/`.
+        image:          # Add your image background to `assets/media/`.
           filename: stacked-peaks.svg
           filters:
-            brightness: 1.0          size: cover
+            brightness: 1.0
+          size: cover
           position: center
           parallax: false
   - block: markdown
@@ -38,11 +38,10 @@ sections:
 
         With a background in Electronics & Instrumentation and a Master's in Data Science & AI, my work often involves uncovering patterns in complex systems, optimizing processes, and developing scalable AI solutions—especially in the domains of energy, manufacturing, and digital transformation.
 
-        My research combines quantitative modeling, AI system design, and behavioral insights to drive innovation, especially where sustainability and efficiency meet.
-
-        ✨ I'm always open to collaboration, especially on projects that align with SDGs, intelligent automation, or human-centered AI.
+        My research combines quantitative modeling, AI system design, and behavioral insights to drive innovation, especially where sustainability and efficiency meet.        ✨ I'm always open to collaboration, especially on projects that align with SDGs, intelligent automation, or human-centered AI.
     design:
-      columns: '1'  - block: collection
+      columns: '1'
+  - block: collection
     id: papers
     draft: true  # Hidden but preserved for future use
     content:
