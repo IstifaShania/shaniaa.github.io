@@ -29,17 +29,18 @@ sections:
             brightness: 1.0
           size: cover
           position: center
-          parallax: false
-  - block: markdown
+          parallax: false  - block: markdown
     content:
       title: '📚 My Research'
       subtitle: ''
       text: |-
-        Use this area to speak to your mission. I'm a research scientist in the Moonshot team at DeepMind. I blog about machine learning, deep learning, and moonshots.
+        I explore the intersection of data science, AI, and real-world impact—with a strong focus on predictive modeling, machine learning, and decision intelligence for industry transformation.
 
-        I apply a range of qualitative and quantitative methods to comprehensively investigate the role of science and technology in the economy.
-        
-        Please reach out to collaborate 😃
+        With a background in Electronics & Instrumentation and a Master's in Data Science & AI, my work often involves uncovering patterns in complex systems, optimizing processes, and developing scalable AI solutions—especially in the domains of energy, manufacturing, and digital transformation.
+
+        My research combines quantitative modeling, AI system design, and behavioral insights to drive innovation, especially where sustainability and efficiency meet.
+
+        ✨ I'm always open to collaboration, especially on projects that align with SDGs, intelligent automation, or human-centered AI.
     design:
       columns: '1'
   - block: collection
