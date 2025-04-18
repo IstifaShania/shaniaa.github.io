@@ -1,6 +1,6 @@
 ---
-title: 🤖 A2A vs MCP: The Future of Agentic Collaboration
-summary: From solo agents to smart teams: A2A connects, MCP empowers—shaping the future of collaborative AI.
+title: "🤖 A2A vs MCP: The Future of Agentic Collaboration"
+summary: "From solo agents to smart teams: A2A connects, MCP empowers—shaping the future of collaborative AI."
 date: 2025-04-15
 authors:
   - admin
