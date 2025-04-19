@@ -1,12 +1,12 @@
 ---
-title: "An example preprint / working paper"
+title: "Detection of Fluoride Content in Black Tea Using Electronic Nose"
 authors:
 - admin
-date: "2019-04-07T00:00:00Z"
+date: "2023-10-23T00:00:00Z"
 doi: ""
 
 # Schedule page publish date (NOT publication's date).
-publishDate: "2017-01-01T00:00:00Z"
+publishDate: ""
 
 # Publication type.
 # Accepts a single type but formatted as a YAML list (for Hugo requirements).
@@ -17,13 +17,15 @@ publication_types: ["article"]
 publication: ""
 publication_short: ""
 
-abstract: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.
+abstract: The impact of fluoride on human health is still a controversial issue. The World Health Organization (WHO) has provided permissible levels of fluoride in black tea, but various commodities still ignore it. The purpose of this research is to design a software system used to build a predictive model for fluoride concentration based on the Rs / Ro ratio. The system uses input data in the form of e-nose sensor response and uses the Partial Least Square (PLSR) regression method for quick analysis of fluoride levels in various quality black tea (kw1, kw2, kw3). Identification of volatile compounds in black tea with various qualities was carried out using an e-nose equipped with 12 gas sensors. A prediction model for fluoride concentration based on the Rs / Ro ratio was successfully developed for each quality. The predictive performance values of fluoride concentration in the sample against the reference fluoride concentration Rs / Ro are: R2predkw1 = 0.986620 and RMSEpredkw1 = 0.004642; R2predkw2 = 0.994791 and RMSEpredkw2 = 0.010772; R2predkw3 = 0.994054 and RMSEpredkw3 = 0.005324. This shows that the indicators of predictive goodness for each black tea quality are satisfactory.
 
 # Summary. An optional shortened abstract.
-summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
+summary: Research on designing a software system for predicting fluoride concentration in various quality black tea using e-nose sensors and Partial Least Square regression method.
 
 tags:
-- Large Language Models
+- Machine Learning
+- Data Mining
+- Data Science
 
 featured: true
 
