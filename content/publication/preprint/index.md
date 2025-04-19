@@ -36,8 +36,8 @@ url_pdf: http://arxiv.org/pdf/1512.04133v1
 url_code: 'https://github.com/HugoBlox/hugo-blox-builder'
 url_dataset: '#'
 url_poster: '#'
-url_project: ''
-url_slides: ''
+url_project: 'https://github.com/HugoBlox/hugo-blox-builder'
+url_slides: 'https://github.com/HugoBlox/hugo-blox-builder'
 url_source: '#'
 url_video: '#'
 
