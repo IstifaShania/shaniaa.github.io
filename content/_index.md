@@ -42,8 +42,7 @@ sections:
         
         ✨ I'm always open to collaboration, especially on projects that align with SDGs, intelligent automation, or human-centered AI.
     design:
-      columns: '1'
-  - block: collection
+      columns: '1'  - block: collection
     id: papers
     draft: true  # Hidden but preserved for future use
     content:
@@ -56,6 +55,8 @@ sections:
       view: article-grid
       columns: 2
   - block: collection
+    id: recent-publications
+    draft: true  # Hidden but preserved for future use
     content:
       title: Recent Publications
       text: ""
