@@ -61,7 +61,7 @@ projects:
 #   Simply enter your slide deck's filename without extension.
 #   E.g. `slides: "example"` references `content/slides/example/index.md`.
 #   Otherwise, set `slides: ""`.
-slides: preprint
+slides: fin-ICST 2023- Istifa-Black Tea
 ---
 
 This work is driven by the results in my [previous paper](/publication/conference-paper/) on Machine Learning.
