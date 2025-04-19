@@ -1,6 +1,6 @@
 ---
-title: 🧠 Understanding Large Language Models (LLMs): Powering the Next Era of AI
-summary: From ChatGPT to enterprise copilots, LLMs are redefining how we interact with information, automate tasks, and build intelligent systems.
+title: "🧠 Understanding Large Language Models (LLMs): Powering the Next Era of AI"
+summary: "From ChatGPT to enterprise copilots, LLMs are redefining how we interact with information, automate tasks, and build intelligent systems."
 date: 2025-04-09
 authors:
   - admin
@@ -13,7 +13,7 @@ tags:
   - Microsoft
   - Generative AI
 image:
-  caption: 'Image credit: [Unsplash](https://unsplash.com)'
+  caption: "Image credit: [Unsplash](https://unsplash.com)"
 ---
 
 In recent years, **Large Language Models (LLMs)** have emerged as one of the most transformative technologies in artificial intelligence. These models—trained on massive datasets of text—are capable of understanding, generating, summarizing, and reasoning with human language at an unprecedented scale.
