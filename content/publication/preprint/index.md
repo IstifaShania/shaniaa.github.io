@@ -31,8 +31,10 @@ featured: true
 
 links:
 - name: PowerPoint Presentation
-  url: 'slideck.pptx'
-url_pdf: '/publication/preprint/paper.pdf'
+  url: '#ppt-viewer'
+- name: View PDF
+  url: '#pdf-viewer'
+url_pdf: ''
 url_code: ''
 url_dataset: ''
 url_poster: ''
@@ -71,3 +73,13 @@ Create your slides in Markdown - click the *Slides* button to check out the exam
 {{% /callout %}}
 
 Add the publication's **full text** or **supplementary notes** here. You can use rich formatting such as including [code, math, and images](https://docs.hugoblox.com/content/writing-markdown-latex/).
+
+## Document Viewers
+
+### PowerPoint Presentation {#ppt-viewer}
+
+{{< view-document "/publication/preprint/slideck.pptx" "ppt" >}}
+
+### PDF Document {#pdf-viewer}
+
+{{< view-document "/publication/preprint/paper.pdf" "pdf" >}}
