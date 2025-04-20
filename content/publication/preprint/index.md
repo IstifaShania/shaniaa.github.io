@@ -29,11 +29,7 @@ tags:
 
 featured: true
 
-links:
-- name: PowerPoint Presentation
-  url: '#ppt-viewer'
-- name: View PDF
-  url: '#pdf-viewer'
+links: []
 url_pdf: ''
 url_code: ''
 url_dataset: ''
