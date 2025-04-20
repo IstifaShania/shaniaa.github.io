@@ -47,7 +47,7 @@ featured: true
 url_pdf: ''
 url_code: ''
 url_dataset: ''
-url_poster: '/publication/conference-paper/poster.png'
+url_poster: 'poster.png'
 url_project: ''
 url_slides: '/slides/gaussian/'
 url_source: ''
@@ -86,6 +86,3 @@ slides: gaussian
 
 {{< view-document "/publication/conference-paper/paper-tesis.pptx" "ppt" >}}
 
-### Poster Presentation {#poster-viewer}
-
-{{< view-document "/publication/conference-paper/poster.png" "image" >}}
