@@ -1,12 +1,22 @@
 ---
-marp: true
-theme: default
-paginate: true
+title: Evaluating the Impact of Adding Gaussian Noise
+summary: as Data Augmentation on Electronic Nose for Black Tea Quality Classification
+authors: [admin]
+tags: [Deep learning model, Electronic nose, Data augmentation]
+categories: []
+date: "2024-01-15T00:00:00Z"
+slides:
+  # Choose a theme from https://github.com/hakimel/reveal.js#theming
+  theme: black
+  # Choose a code highlighting style (if highlighting enabled in `params.toml`)
+  #   Light style: github. Dark style: dracula (default).
+  highlight_style: dracula
 ---
 
-# Evaluating the Impact of Adding Gaussian Noise  
-## as Data Augmentation on Electronic Nose  
-## for Black Tea Quality Classification  
+# Evaluating the Impact of Adding Gaussian Noise
+
+## as Data Augmentation on Electronic Nose for Black Tea Quality Classification
+
 **Istifa Shania Putri, B.Sc.**  
 Supervisor: Dr. Nur Ulfa Maulidevi, S.T., M.Sc.  
 School of Electrical Engineering and Informatics  
@@ -99,6 +109,14 @@ Bandung Institute of Technology
 - Visual comparison: original vs. augmented signals (noise 0.01 & 0.3)  
 - Aroma profile evaluations: Q1, Q2, Q3  
 - Feature separability via LDA
+
+---
+
+## Thank You
+
+### Questions & Discussion
+
+[Download Paper](/publication/conference-paper/conference-paper.pdf)
 
 ---
 
