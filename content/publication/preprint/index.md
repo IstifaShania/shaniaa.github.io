@@ -68,4 +68,14 @@ slides: fluoride-tea
 
 This work is driven by the results in my [previous paper](/publication/conference-paper/) on Machine Learning.
 
+## Document Viewers
+
+### PDF Document {#pdf-viewer}
+
+{{< view-document "/publication/preprint/paper.pdf" "pdf" >}}
+
+### PowerPoint Presentation {#ppt-viewer}
+
+{{< view-document "/publication/preprint/slideck.pptx" "ppt" >}}
+
 
