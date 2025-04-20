@@ -47,9 +47,9 @@ featured: true
 url_pdf: ''
 url_code: ''
 url_dataset: ''
-url_poster: ''
+url_poster: '/publication/conference-paper/poster.png'
 url_project: ''
-url_slides: ''
+url_slides: '/slides/gaussian/'
 url_source: ''
 url_video: ''
 
@@ -66,22 +66,26 @@ image:
 #   E.g. `internal-project` references `content/project/internal-project/index.md`.
 #   Otherwise, set `projects: []`.
 projects:
-  - thesis
+  - "thesis project"
 
 # Slides (optional).
 #   Associate this publication with Markdown slides.
 #   Simply enter your slide deck's filename without extension.
 #   E.g. `slides: "example"` references `content/slides/example/index.md`.
 #   Otherwise, set `slides: ""`.
-slides: example
+slides: gaussian
 ---
 
-{{% callout note %}}
-Click the _Cite_ button above to demo the feature to enable visitors to import publication metadata into their reference management software.
-{{% /callout %}}
+## Document Viewers
 
-{{% callout note %}}
-Create your slides in Markdown - click the _Slides_ button to check out the example.
-{{% /callout %}}
+### PDF Document {#pdf-viewer}
 
-Add the publication's **full text** or **supplementary notes** here. You can use rich formatting such as including [code, math, and images](https://docs.hugoblox.com/content/writing-markdown-latex/).
+{{< view-document "/publication/conference-paper/conference-paper.pdf" "pdf" >}}
+
+### PowerPoint Presentation {#ppt-viewer}
+
+{{< view-document "/publication/conference-paper/paper-tesis.pptx" "ppt" >}}
+
+### Poster Presentation {#poster-viewer}
+
+{{< view-document "/publication/conference-paper/poster.png" "image" >}}

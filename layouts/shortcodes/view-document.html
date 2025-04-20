@@ -18,6 +18,10 @@
       frameborder="0">
       <p>Your browser doesn't support iframes. Please <a href="{{ $path }}">download the presentation</a> to view it.</p>
     </iframe>
+  {{ else if eq $type "image" }}
+    <div class="image-viewer">
+      <img src="{{ $path }}" alt="Document Image" style="max-width: 100%; height: auto; border: 1px solid #ddd;">
+    </div>
   {{ end }}
 </div>
 
