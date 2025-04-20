@@ -1,23 +1,19 @@
 ---
-title: 'An example conference paper'
+title: 'Evaluating the Impact of Adding Gaussian Noise as Data Augmentation on Electronic Nose for Black Tea Quality Classification'
 
 # Authors
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here
 # and it will be replaced with their full name and linked to their profile.
 authors:
   - admin
-  - Robert Ford
 
 # Author notes (optional)
-author_notes:
-  - 'Equal contribution'
-  - 'Equal contribution'
 
-date: '2013-07-01T00:00:00Z'
+date: '2024-01-15T00:00:00Z'
 doi: ''
 
 # Schedule page publish date (NOT publication's date).
-publishDate: '2017-01-01T00:00:00Z'
+#publishDate: '2017-01-01T00:00:00Z'
 
 # Publication type.
 # Accepts a single type but formatted as a YAML list (for Hugo requirements).
@@ -25,16 +21,20 @@ publishDate: '2017-01-01T00:00:00Z'
 publication_types: ['paper-conference']
 
 # Publication name and optional abbreviated publication name.
-publication: In *Hugo Blox Builder Conference*
-publication_short: In *ICW*
+#publication: In *Hugo Blox Builder Conference*
+#publication_short: In *ICW*
 
-abstract: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.
+abstract: This study aims to evaluate whether the addition of Gaussian noise as data augmentation enhances the learning  process or merely introduces irrelevant data ("noise") into the system. The evaluation focuses on how the augmented data affects learning outcomes, particularly in scenarios with increasing noise levels. The study also compares classification performance with and without noise augmentation to assess its impact on model generalization and accuracy. Gaussian noise was applied at six controlled variance levels (0.01 to 0.3), and its influence on classification was analyzed across 1D-CNN and 2DCNN. Statistical analyses using MANOVA and the Kolmogorov Smirnov test confirmed that Gaussian noise augmentation preserved the core structure of the original data at lower noise levels while introducing realistic variability. The results show that for 1D-CNN, Zhou’s architecture consistently achieved 96% accuracy across all noise levels, indicating robustness to added noise. In contrast, 2D-CNN models, particularly ResNet34 with transfer learning, demonstrated exceptional performance at low noise levels (0.01) with an accuracy of 98.66%, but experienced a gradual performance decline as noise levels increased. This research provides insights into the effectiveness of Gaussian noise augmentation for improving model learning and highlights its limitations at higher noise levels. By comparing results with and without noise augmentation, the study demonstrates the importance of noise calibration to maintain the balance between variability and data integrity in classification tasks. 
 
 # Summary. An optional shortened abstract.
-summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
+summary: This study evaluates the effectiveness of Gaussian noise as data augmentation for electronic nose data in black tea quality classification, analyzing its impact on 1D-CNN and 2D-CNN model performance across different noise levels.
 
 tags:
-  - Large Language Models
+  - Deep learning model
+  - AI
+  - Vision
+  - Signal processing
+  - Electronic nose
 
 # Display this page in the Featured widget?
 featured: true
@@ -45,13 +45,13 @@ featured: true
 #   url: http://example.org
 
 url_pdf: ''
-url_code: 'https://github.com/HugoBlox/hugo-blox-builder'
-url_dataset: 'https://github.com/HugoBlox/hugo-blox-builder'
+url_code: ''
+url_dataset: ''
 url_poster: ''
 url_project: ''
 url_slides: ''
-url_source: 'https://github.com/HugoBlox/hugo-blox-builder'
-url_video: 'https://youtube.com'
+url_source: ''
+url_video: ''
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder.
@@ -66,7 +66,7 @@ image:
 #   E.g. `internal-project` references `content/project/internal-project/index.md`.
 #   Otherwise, set `projects: []`.
 projects:
-  - example
+  - thesis
 
 # Slides (optional).
 #   Associate this publication with Markdown slides.
