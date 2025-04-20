@@ -1,6 +1,10 @@
 ---
 title: "Detection of Fluoride Content in Black Tea"
 summary: "Slides from ICST 2023"
+authors: ["admin"]
+tags: ["Machine Learning", "Data Mining", "Data Science"]
+categories: []
+date: "2023-10-23T00:00:00Z"
 slides:
   theme: white
   highlight_style: github
