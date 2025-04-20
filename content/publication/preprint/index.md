@@ -30,8 +30,8 @@ tags:
 featured: true
 
 links:
-- name: Custom Link
-  url: ''
+- name: PowerPoint Presentation
+  url: '/publication/preprint/fin-ICST 2023- Istifa-Black Tea.pptx'
 url_pdf: ''
 url_code: ''
 url_dataset: ''
