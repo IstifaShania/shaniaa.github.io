@@ -12,6 +12,9 @@ authors:
 date: '2024-01-15T00:00:00Z'
 doi: ''
 
+# Disable the citation button for this publication
+share: false
+
 # Schedule page publish date (NOT publication's date).
 #publishDate: '2017-01-01T00:00:00Z'
 
