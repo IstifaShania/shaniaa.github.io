@@ -13,10 +13,6 @@ slides:
   highlight_style: dracula
 ---
 
-# Evaluating the Impact of Adding Gaussian Noise
-
-## as Data Augmentation on Electronic Nose for Black Tea Quality Classification
-
 **Istifa Shania Putri, B.Sc.**  
 Supervisor: Dr. Nur Ulfa Maulidevi, S.T., M.Sc.  
 School of Electrical Engineering and Informatics  
@@ -76,9 +72,8 @@ Bandung Institute of Technology
 ## Proposed Solution
 
 - **Noise Levels:** 0.01, 0.03, 0.05, 0.1, 0.2, 0.3  
-- **Scenario 1:**
+- **Metric Evaluation:**
   - KS test, MANOVA, Aroma Profile, LDA  
-- **Scenario 2:**
   - Metric scores, Confusion Matrix  
 - **Models:** ResNet18, ResNet34, ResNet50
 
@@ -154,7 +149,5 @@ Bandung Institute of Technology
 ## Thank You
 
 ### Questions & Discussion
-
-[Download Paper](/publication/conference-paper/conference-paper.pdf)
 
 ---
