@@ -110,13 +110,6 @@ Bandung Institute of Technology
 - Aroma profile evaluations: Q1, Q2, Q3  
 - Feature separability via LDA
 
----
-
-## Thank You
-
-### Questions & Discussion
-
-[Download Paper](/publication/conference-paper/conference-paper.pdf)
 
 ---
 
@@ -156,5 +149,12 @@ Bandung Institute of Technology
   other augmentation methods (e.g., scaling, linear interpolation)  
 - High noise (> 0.15) decreases performance →  
   develop models with better **noise tolerance**
+
+---
+## Thank You
+
+### Questions & Discussion
+
+[Download Paper](/publication/conference-paper/conference-paper.pdf)
 
 ---
