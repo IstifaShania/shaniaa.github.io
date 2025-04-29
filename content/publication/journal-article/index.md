@@ -1,16 +1,15 @@
 ---
-title: "An example journal article"
+title: "Electric Load Forecasting Enhanced by Weather Factors: A Comparative Study of GRU, LSTM, and XGBoost Model in Jamali Power System Network"
 authors:
 - admin
-- Robert Ford
 author_notes:
 - "Equal contribution"
 - "Equal contribution"
-date: "2015-09-01T00:00:00Z"
+date: "2025-09-01T00:00:00Z"
 doi: ""
 
 # Schedule page publish date (NOT publication's date).
-publishDate: "2017-01-01T00:00:00Z"
+publishDate: ''
 
 # Publication type.
 # Accepts a single type but formatted as a YAML list (for Hugo requirements).
@@ -18,13 +17,13 @@ publishDate: "2017-01-01T00:00:00Z"
 publication_types: ["article-journal"]
 
 # Publication name and optional abbreviated publication name.
-publication: "*Journal of Source Themes, 1*(1)"
+publication: "*The 3rd International Conference on High Voltage Engineering and Power Systems"
 publication_short: ""
 
-abstract: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.
+abstract: Electric load forecasting plays a critical role in efficient energy management, helping utility companies balance supply and demand, reduce operational costs, and maintain grid stability. This paper provides a comparative analysis of three predictive models—GRU, LSTM, and XGBoost—to identify the most accurate model for electric load forecasting using time-series data, including historical load data and weather factors such as temperature, humidity, and wind speed. The models were evaluated on metrics including R², MAPE, RMSE, and MAE. Results show that GRU outperforms both LSTM and XGBoost, achieving the highest R² value of 0.990 and a MAPE of 0.79 %, indicating its superior ability to capture complex temporal dependencies in the load data. The LSTM model closely follows with an R² of 0.989 and MAPE of 0.85 %, while XGBoost lags with an R² of 0.589 and a MAPE of 4.76 %, demonstrating its limitations in time-series forecasting. Hyperparameter tuning played a crucial role in optimizing model performance, with GRU's simpler architecture providing a slight edge over LSTM. These findings establish the GRU model as the most reliable and accurate model for electric load forecasting for this case, particularly when accounting for both historical load patterns and weather-related variables, highlighting the importance of recurrent neural networks for this application.
 
 # Summary. An optional shortened abstract.
-summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
+summary: This study compares GRU, LSTM, and XGBoost for electric load forecasting, concluding GRU achieves the highest accuracy by effectively capturing historical load patterns and weather influences.
 
 tags:
 - Source Themes
@@ -33,8 +32,8 @@ featured: false
 # links:
 # - name: ""
 #   url: ""
-url_pdf: http://arxiv.org/pdf/1512.04133v1
-url_code: 'https://github.com/HugoBlox/hugo-blox-builder'
+url_pdf: ''
+url_code: ''
 url_dataset: ''
 url_poster: ''
 url_project: ''
@@ -45,7 +44,7 @@ url_video: ''
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder. 
 image:
-  caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/jdD8gXaTZsc)'
+  caption: 'Image credit: [**Unsplash**](https://unsplash.com/photosphoto-of-truss-towers-yETqkLnhsUI)'
   focal_point: ""
   preview_only: false
 
@@ -64,12 +63,4 @@ projects: []
 slides: example
 ---
 
-{{% callout note %}}
-Click the *Cite* button above to demo the feature to enable visitors to import publication metadata into their reference management software.
-{{% /callout %}}
 
-{{% callout note %}}
-Create your slides in Markdown - click the *Slides* button to check out the example.
-{{% /callout %}}
-
-Add the publication's **full text** or **supplementary notes** here. You can use rich formatting such as including [code, math, and images](https://docs.hugoblox.com/content/writing-markdown-latex/).
