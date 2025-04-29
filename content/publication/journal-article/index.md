@@ -1,7 +1,10 @@
 ---
 title: "Electric Load Forecasting Enhanced by Weather Factors: A Comparative Study of GRU, LSTM, and XGBoost Model in Jamali Power System Network"
 authors:
+  - Dimas Bangun
   - admin
+  - Didik
+  - Agus Trisusanto
 author_notes:
   - "Equal contribution"
 date: '2023-09-01T00:00:00Z'
@@ -28,7 +31,7 @@ abstract: Electric load forecasting plays a critical role in efficient energy ma
 summary: This study compares GRU, LSTM, and XGBoost for electric load forecasting, concluding GRU achieves the highest accuracy by effectively capturing historical load patterns and weather influences.
 
 tags:
-- Deep Learning
+- Deep Learning Model
 - Time Series Analysis
 - Electric Load Forecasting
 - GRU
@@ -39,7 +42,7 @@ featured: true
 # links:
 # - name: ""
 #   url: ""
-url_pdf: ''
+url_pdf: 'Electric Load Forecasting.pdf'
 url_code: ''
 url_dataset: ''
 url_poster: ''
