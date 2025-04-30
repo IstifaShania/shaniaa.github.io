@@ -138,5 +138,4 @@ Digital Management Division, PLN
 
 ---
 
-## Thank You 🙏  
-**Questions & Discussion Welcome**
+## Thank You 🙏 

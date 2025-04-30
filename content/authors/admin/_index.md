@@ -1,6 +1,6 @@
 ---
 # Display name
-title: Istifa Shania Putri
+title: Istifa Shania Putri, S.Si., M.Sc
 
 # Name pronunciation (optional)
 name_pronunciation: ""
