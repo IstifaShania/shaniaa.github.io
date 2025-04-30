@@ -18,29 +18,32 @@ sections:
       button:
         text: Download CV
         url: uploads/resume.pdf
-    design:      css_class: dark
+    design:
+      css_class: dark
       background:
         color: black
-        image:          # Add your image background to `assets/media/`.
+        image:
           filename: stacked-peaks.svg
           filters:
             brightness: 1.0
           size: cover
           position: center
           parallax: false
+
   - block: markdown
     content:
       title: '📚 My Research'
       subtitle: ''
       text: |-
         I explore the intersection of data science, AI, and real-world impact—with a strong focus on predictive modeling, machine learning, and decision intelligence for industry transformation.
-        
         With a background in Electronics & Instrumentation and a Master's in Data Science & AI, my work often involves uncovering patterns in complex systems, optimizing processes, and developing scalable AI solutions—especially in the domains of energy, manufacturing, and digital transformation.
-        
+
         My research combines quantitative modeling, AI system design, and behavioral insights to drive innovation, especially where sustainability and efficiency meet.
-        
-        ✨ I'm always open to collaboration, especially on projects that align with SDGs, intelligent automation, or human-centered AI.    design:
+
+        ✨ I'm always open to collaboration, especially on projects that align with SDGs, intelligent automation, or human-centered AI.
+    design:
       columns: '1'
+
   - block: collection
     id: papers
     draft: true  # Hidden but preserved for future use
@@ -53,6 +56,7 @@ sections:
     design:
       view: article-grid
       columns: 2
+
   - block: collection
     id: recent-publications
     draft: true  # Hidden but preserved for future use
@@ -65,17 +69,15 @@ sections:
         exclude_featured: false
     design:
       view: citation
+
   - block: collection
     id: news
     content:
       title: Recent News
       subtitle: ''
       text: ''
-      # Page type to display. E.g. post, talk, publication...
       page_type: post
-      # Choose how many pages you would like to display (0 = all pages)
       count: 5
-      # Filter on criteria
       filters:
         author: ""
         category: ""
@@ -84,18 +86,14 @@ sections:
         exclude_future: false
         exclude_past: false
         publication_type: ""
-      # Choose how many pages you would like to offset by
       offset: 0
-      # Page order: descending (desc) or ascending (asc) date.
       order: desc
     design:
-      # Choose a layout view
       view: date-title-summary
-      # Reduce spacing
       spacing:
         padding: [0, 0, 0, 0]
+
   - block: cta-card
-    demo: true # Only display this section in the Hugo Blox Builder demo site
     content:
       title: 👉 Build your own academic website like this
       text: |-
@@ -104,14 +102,13 @@ sections:
         <a class="github-button" href="https://github.com/HugoBlox/hugo-blox-builder" data-color-scheme="no-preference: light; light: light; dark: dark;" data-icon="octicon-star" data-size="large" data-show-count="true" aria-label="Star HugoBlox/hugo-blox-builder on GitHub">Star</a>
 
         Easily build anything with blocks - no-code required!
-        
+
         From landing pages, second brains, and courses to academic resumés, conferences, and tech blogs.
       button:
         text: Get Started
         url: https://hugoblox.com/templates/
     design:
       card:
-        # Card background color (CSS class)
         css_class: "bg-primary-700"
         css_style: ""
 ---
