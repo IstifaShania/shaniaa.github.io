@@ -10,11 +10,10 @@ appearance:
 
 # SEO
 marketing:
-  seo:
-    site_type: Person
+  seo:    site_type: Person
     local_business_type: ''
     org_name: ''
-    description: 'The highly-customizable Hugo Academic theme powered by Hugo Blox Builder. Easily create your personal academic website.'
+    description: 'Istifa Shania - Data Scientist & AI Researcher specializing in predictive modeling, machine learning, and decision intelligence for industry transformation.'
     twitter: 'GetResearchDev'
   analytics:
     google_analytics: ''
