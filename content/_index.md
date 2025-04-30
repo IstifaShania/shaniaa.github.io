@@ -34,10 +34,9 @@ sections:
       title: '📚 My Research'
       subtitle: ''
       text: |-
-        I explore the intersection of data science, AI, and real-world impact—with a strong focus on predictive modeling, machine learning, and decision intelligence for industry transformation.
-
-        With a background in Electronics & Instrumentation and a Master's in Data Science & AI, my work often involves uncovering patterns in complex systems, optimizing processes, and developing scalable AI solutions—especially in the domains of energy, manufacturing, and digital transformation.
-          My research combines quantitative modeling, AI system design, and behavioral insights to drive innovation, especially where sustainability and efficiency meet.
+        I explore the intersection of data science, AI, and real-world impact—with a strong focus on predictive modeling, machine learning, and decision intelligence for industry transformation.        With a background in Electronics & Instrumentation and a Master's in Data Science & AI, my work often involves uncovering patterns in complex systems, optimizing processes, and developing scalable AI solutions—especially in the domains of energy, manufacturing, and digital transformation.
+        
+        My research combines quantitative modeling, AI system design, and behavioral insights to drive innovation, especially where sustainability and efficiency meet.
         
         ✨ I'm always open to collaboration, especially on projects that align with SDGs, intelligent automation, or human-centered AI.
     design:
@@ -57,10 +56,10 @@ sections:
   - block: collection
     id: recent-publications
     draft: true  # Hidden but preserved for future use
-    content:
-      title: Recent Publications
+    content:      title: Recent Publications
       text: ""
-      filters:        folders:
+      filters:
+        folders:
           - publication
         exclude_featured: false
     design:
