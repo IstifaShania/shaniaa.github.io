@@ -28,9 +28,9 @@ sections:
             brightness: 1.0
           size: cover
           position: center
-          parallax: false
-  - block: markdown
-    content:      title: '📚 My Research'
+          parallax: false  - block: markdown
+    content:
+      title: '📚 My Research'
       subtitle: ''
       text: |-
         I explore the intersection of data science, AI, and real-world impact—with a strong focus on predictive modeling, machine learning, and decision intelligence for industry transformation.
@@ -47,10 +47,10 @@ sections:
     draft: true  # Hidden but preserved for future use
     content:
       title: Featured Publications
-      filters:
-        folders:
+      filters:        folders:
           - publication
-        featured_only: true    design:
+        featured_only: true
+    design:
       view: article-grid
       columns: 2
   - block: collection
