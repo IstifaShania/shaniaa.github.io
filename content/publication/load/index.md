@@ -23,7 +23,7 @@ publication_types: ["article-journal"]
 
 # Publication name and optional abbreviated publication name.
 publication: "The 3rd International Conference on High Voltage Engineering and Power Systems"
-publication_short: "ICHVEPS 2023"
+publication_short: "ICHVEPS 2025"
 
 abstract: Electric load forecasting plays a critical role in efficient energy management, helping utility companies balance supply and demand, reduce operational costs, and maintain grid stability. This paper provides a comparative analysis of three predictive models—GRU, LSTM, and XGBoost—to identify the most accurate model for electric load forecasting using time-series data, including historical load data and weather factors such as temperature, humidity, and wind speed. The models were evaluated on metrics including R², MAPE, RMSE, and MAE. Results show that GRU outperforms both LSTM and XGBoost, achieving the highest R² value of 0.990 and a MAPE of 0.79 %, indicating its superior ability to capture complex temporal dependencies in the load data. The LSTM model closely follows with an R² of 0.989 and MAPE of 0.85 %, while XGBoost lags with an R² of 0.589 and a MAPE of 4.76 %, demonstrating its limitations in time-series forecasting. Hyperparameter tuning played a crucial role in optimizing model performance, with GRU's simpler architecture providing a slight edge over LSTM. These findings establish the GRU model as the most reliable and accurate model for electric load forecasting for this case, particularly when accounting for both historical load patterns and weather-related variables, highlighting the importance of recurrent neural networks for this application.
 
