@@ -63,14 +63,13 @@ sections:
       filters:
         folders:
           - publication
-        exclude_featured: false
-    design:
+        exclude_featured: false    design:
       view: citation
   - block: collection
     id: talks
     draft: true  # Hidden but preserved for future use
     content:
-      title: Recent & Upcoming Talks
+      title: ""  # Title removed to hide it completely
       filters:
         folders:
           - event
