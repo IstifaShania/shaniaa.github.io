@@ -18,14 +18,14 @@ sections:
       button:
         text: Download CV
         url: uploads/resume.pdf
-    design:
-      css_class: dark
+    design:      css_class: dark
       background:
         color: black
         image:          # Add your image background to `assets/media/`.
           filename: stacked-peaks.svg
           filters:
-            brightness: 1.0          size: cover
+            brightness: 1.0
+          size: cover
           position: center
           parallax: false
   - block: markdown
@@ -39,13 +39,13 @@ sections:
         
         My research combines quantitative modeling, AI system design, and behavioral insights to drive innovation, especially where sustainability and efficiency meet.
         
-        ✨ I'm always open to collaboration, especially on projects that align with SDGs, intelligent automation, or human-centered AI.
-    design:
+        ✨ I'm always open to collaboration, especially on projects that align with SDGs, intelligent automation, or human-centered AI.    design:
       columns: '1'
   - block: collection
     id: papers
     draft: true  # Hidden but preserved for future use
-    content:      title: Featured Publications
+    content:
+      title: Featured Publications
       filters:
         folders:
           - publication
@@ -65,17 +65,6 @@ sections:
         exclude_featured: false
     design:
       view: citation
-  - block: collection
-    id: talks
-    draft: true  # Hidden but preserved for future use
-    content:
-      title: ""  # Title removed to hide it completely
-      filters:
-        folders:
-          - event
-    design:
-      view: article-grid
-      columns: 1
   - block: collection
     id: news
     content:
