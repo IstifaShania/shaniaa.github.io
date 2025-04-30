@@ -7,14 +7,14 @@ authors:
   - Agus Trisusanto
 author_notes:
   - "Equal contribution"
-date: '2023-09-01T00:00:00Z'
+date: '2025-03-01T00:00:00Z'
 doi: ''
 
 # Disable the citation button for this publication
 share: true
 
 # Schedule page publish date (NOT publication's date).
-publishDate: '2023-09-01T00:00:00Z'
+publishDate: '2025-03-01T00:00:00Z'
 
 # Publication type.
 # Accepts a single type but formatted as a YAML list (for Hugo requirements).
@@ -42,12 +42,12 @@ featured: true
 # links:
 # - name: ""
 #   url: ""
-url_pdf: 'paper.pdf'
+url_pdf: ''
 url_code: ''
 url_dataset: ''
 url_poster: ''
 url_project: ''
-url_slides: ''
+url_slides: 'slides/load-forecast/'
 url_source: ''
 url_video: ''
 
@@ -70,7 +70,7 @@ projects: []
 #   Simply enter your slide deck's filename without extension.
 #   E.g. `slides: "example"` references `content/slides/example/index.md`.
 #   Otherwise, set `slides: ""`.
-slides: example
+slides: load-forecast
 ---
 
 
