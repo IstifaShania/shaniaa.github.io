@@ -1,6 +1,6 @@
 # 🌐 Personal Portfolio – Istifa Shania Putri
 
-![Preview](.github/preview.webp)
+[![Preview](.github/preview.png)](https://istifashania.github.io/shaniaa.github.io/)
 
 Selamat datang di website portofolio saya!  
 Saya **Istifa Shania Putri**, seorang Data Scientist dengan latar belakang kuat di bidang **Informatika**, **Elektronika & Instrumentasi**, dan pengalaman profesional lintas sektor seperti energi, manufaktur, dan transformasi digital.
