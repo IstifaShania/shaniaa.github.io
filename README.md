@@ -5,8 +5,6 @@
 Selamat datang di website portofolio saya!  
 Saya **Istifa Shania Putri**, seorang Data Scientist dengan latar belakang kuat di bidang **Informatika**, **Elektronika & Instrumentasi**, dan pengalaman profesional lintas sektor seperti energi, manufaktur, dan transformasi digital.
 
-Website ini dibangun menggunakan [**Hugo Academic CV Theme**](https://github.com/HugoBlox/theme-academic-cv), dan telah disesuaikan untuk menampilkan perjalanan akademik, riset, dan proyek-proyek profesional saya.
-
 ---
 
 ## ✨ Tentang Saya
