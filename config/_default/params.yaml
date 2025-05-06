@@ -67,6 +67,6 @@ features:
     
 # Favicon configuration
 favicon:
-  icon: favicon
+  icon: favicon.png
   media_dir: media
   package_url: ''
