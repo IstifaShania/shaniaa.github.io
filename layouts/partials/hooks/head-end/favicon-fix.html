@@ -1,0 +1,23 @@
+<!-- favicon-fix.html: advanced favicon implementation with proper resource handling -->
+{{- with site.Params.favicon -}}
+  {{- if .icon -}}
+    {{- $favicon_src := resources.Get (path.Join .media_dir .icon) -}}
+    {{- if $favicon_src -}}
+      {{- $favicon := $favicon_src.Resize "32x png" -}}
+      {{- $timestamp := now.Unix -}}
+      <link rel="icon" href="{{ $favicon.RelPermalink }}?v={{ $timestamp }}">
+      <link rel="shortcut icon" href="{{ $favicon.RelPermalink }}?v={{ $timestamp }}">
+      {{- $favicon_16 := $favicon_src.Resize "16x png" -}}
+      <link rel="icon" type="image/png" sizes="16x16" href="{{ $favicon_16.RelPermalink }}?v={{ $timestamp }}">
+      {{- $favicon_32 := $favicon_src.Resize "32x png" -}}
+      <link rel="icon" type="image/png" sizes="32x32" href="{{ $favicon_32.RelPermalink }}?v={{ $timestamp }}">
+      {{- $favicon_180 := $favicon_src.Resize "180x png" -}}
+      <link rel="apple-touch-icon" sizes="180x180" href="{{ $favicon_180.RelPermalink }}?v={{ $timestamp }}">
+      <meta name="msapplication-TileImage" content="{{ $favicon_180.RelPermalink }}?v={{ $timestamp }}">
+      <!-- Add browser restart hint for browser tab refresh -->
+      <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+      <meta http-equiv="Pragma" content="no-cache">
+      <meta http-equiv="Expires" content="0">
+    {{- end -}}
+  {{- end -}}
+{{- end -}}
