@@ -2,40 +2,40 @@
 
 [![Preview](.github/preview.png)](https://istifashania.github.io/shaniaa.github.io/)
 
-Selamat datang di website portofolio saya!  
-Saya **Istifa Shania Putri**, seorang Data Scientist dengan latar belakang kuat di bidang **Informatika**, **Elektronika & Instrumentasi**, dan pengalaman profesional lintas sektor seperti energi, manufaktur, dan transformasi digital.
+Welcome to my personal portfolio website!  
+I am **Ifa**, a Data Scientist with a strong background in **Informatics**, **Electronics & Instrumentation**, and professional experience across sectors such as energy, manufacturing, and digital transformation.
 
 ---
 
-## ✨ Tentang Saya
+## ✨ About Me
 
-- 🎓 **Master of Science in Informatics**, Institut Teknologi Bandung  
-  *Spesialisasi: Data Science & AI (2025)*  
-- 🎓 **Bachelor of Science**, Universitas Gadjah Mada  
-  *Fisika – Elektronika & Instrumentasi (2020)*  
-- 💼 Telah bekerja di: Pertamina Hulu Rokan, PLN, Voksel Electric, Pertamina EP Cepu  
-- 🔍 Fokus: prediksi data, transformasi digital, efisiensi manufaktur  
-- 💡 Minat: AI untuk energi dan pembangunan berkelanjutan
-
----
-
-## 💼 Apa yang Ada di Situs Ini?
-
-- 📌 **Profil lengkap**: pendidikan, pengalaman, sertifikasi, dan pencapaian
-- 📊 **Portofolio proyek**: machine learning, klasifikasi gambar, ETL, dan lainnya
-- ✍️ **Artikel & Insight**: pemikiran saya tentang teknologi dan data
-- 📄 **CV interaktif**: dapat diakses kapan pun
+- 🎓 **Master of Science in Informatics**, Bandung Institute of Technology  
+  *Specialization: Data Science & AI (2025)*  
+- 🎓 **Bachelor of Science**, Gadjah Mada University  
+  *Electronics & Instrumentation (2020)*  
+- 💼 Work experience: Pertamina Hulu Rokan, PLN, Voksel Electric, Pertamina EP Cepu  
+- 🔍 Focus areas: data prediction, digital transformation, manufacturing efficiency  
+- 💡 Interests: AI for energy and sustainable development
 
 ---
 
-## 🛠️ Teknologi
+## 💼 What’s on This Site?
 
-- Hugo Academic CV Theme + [Hugo Blox Builder](https://hugoblox.com)
-- Markdown, LaTeX, dan BibTeX
-- GitHub Pages untuk hosting
-- CMS opsional untuk pengelolaan konten yang mudah
+- 📌 **Full profile**: education, experience, certifications, and achievements  
+- 📊 **Project portfolio**: machine learning, image classification, ETL, and more  
+- ✍️ **Articles & Insights**: my thoughts on technology and data  
+- 📄 **Interactive CV**: always accessible and up-to-date
 
 ---
 
-Terima kasih telah mengunjungi situs saya.  
-📬 **Jangan ragu untuk menghubungi atau berkolaborasi!**
+## 🛠️ Technologies
+
+- Hugo Academic CV Theme + [Hugo Blox Builder](https://hugoblox.com)  
+- Markdown, LaTeX, and BibTeX  
+- GitHub Pages for hosting  
+- Optional CMS for easy content management
+
+---
+
+Thank you for visiting my site.  
+📬 **Feel free to reach out or collaborate!**
