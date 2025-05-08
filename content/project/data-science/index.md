@@ -1,6 +1,6 @@
 ---
 title: Data Science
-date: 2023-10-26
+date: 2024-09-26
 external_link: https://github.com/IstifaShania/Stfshn-DataScience-Journey
 tags:
   - Data Science
