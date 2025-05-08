@@ -1,5 +1,5 @@
 ---
-title: My Data Science Journey
+title: Data Science
 date: 2023-10-26
 external_link: https://github.com/IstifaShania/Stfshn-DataScience-Journey
 tags:
