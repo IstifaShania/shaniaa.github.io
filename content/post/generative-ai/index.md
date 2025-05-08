@@ -1,4 +1,3 @@
-<!-- filepath: i:\shaniaa.github.io\content\post\generative-ai\index.md -->
 ---
 title: "🚀 The Evolving State of AI: My Take on GenAI's Real-World Impact"
 summary: "A personalized reflection on McKinsey's 2024 AI report, focusing on the rise of generative AI and how it's shaping work in the field."
