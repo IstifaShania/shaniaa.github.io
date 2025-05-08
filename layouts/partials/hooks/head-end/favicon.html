@@ -5,7 +5,7 @@
 <!-- Force favicon reload with unique timestamp and random string -->
 {{- $randomString := delimit (shuffle (split "abcdefghijklmnopqrstuvwxyz0123456789" "")) "" -}}
 {{- $timestamp := now.UnixNano -}}
-{{- with resources.Get "media/favicon.png" -}}
+{{- with resources.Get "media/favicon-new.png" -}}
   <!-- Create different sizes directly from the source file -->
   {{- $favicon := . -}}
   {{- $favicon16 := $favicon.Resize "16x16" -}}
