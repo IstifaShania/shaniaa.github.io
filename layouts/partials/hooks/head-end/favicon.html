@@ -1,10 +1,30 @@
-<!-- Custom Favicon Links -->
-<!-- Clear any existing favicon from browser cache -->
+<!-- favicon-force.html: Extremely aggressive favicon refreshing -->
+<!-- First clear any existing favicon from browser cache -->
 <link rel="icon" href="data:,">
-<!-- Force browser to reload favicon with random version parameter -->
-<link rel="icon" type="image/png" sizes="16x16" href="{{ (resources.Get "media/favicon.png").RelPermalink }}?v={{ now.Unix }}">
-<link rel="icon" type="image/png" sizes="32x32" href="{{ (resources.Get "media/favicon.png").RelPermalink }}?v={{ now.Unix }}">
-<link rel="apple-touch-icon" sizes="180x180" href="{{ (resources.Get "media/favicon.png").RelPermalink }}?v={{ now.Unix }}">
-<link rel="shortcut icon" href="{{ (resources.Get "media/favicon.png").RelPermalink }}?v={{ now.Unix }}">
-<meta name="msapplication-TileImage" content="{{ (resources.Get "media/favicon.png").RelPermalink }}?v={{ now.Unix }}">
+
+<!-- Force favicon reload with unique timestamp and random string -->
+{{- $randomString := delimit (shuffle (split "abcdefghijklmnopqrstuvwxyz0123456789" "")) "" -}}
+{{- $timestamp := now.UnixNano -}}
+{{- with resources.Get "media/favicon.png" -}}
+  <!-- Create different sizes directly from the source file -->
+  {{- $favicon := . -}}
+  {{- $favicon16 := $favicon.Resize "16x16" -}}
+  {{- $favicon32 := $favicon.Resize "32x32" -}}
+  {{- $favicon180 := $favicon.Resize "180x180" -}}
+  
+  <!-- Convert main favicon to ICO format for maximum compatibility -->
+  {{- $faviconICO := $favicon.Resize "32x32" -}}
+    <!-- Add all favicon variations with cache-busting query parameters -->
+  <link rel="icon" href="{{ $favicon.RelPermalink }}?v={{ $timestamp }}&r={{ $randomString }}">
+  <link rel="shortcut icon" href="{{ $favicon.RelPermalink }}?v={{ $timestamp }}&r={{ $randomString }}">
+  <link rel="icon" type="image/png" sizes="16x16" href="{{ $favicon16.RelPermalink }}?v={{ $timestamp }}&r={{ $randomString }}">
+  <link rel="icon" type="image/png" sizes="32x32" href="{{ $favicon32.RelPermalink }}?v={{ $timestamp }}&r={{ $randomString }}">
+  <link rel="apple-touch-icon" sizes="180x180" href="{{ $favicon180.RelPermalink }}?v={{ $timestamp }}&r={{ $randomString }}">
+  <meta name="msapplication-TileImage" content="{{ $favicon180.RelPermalink }}?v={{ $timestamp }}&r={{ $randomString }}">
+  
+  <!-- Force browser to not use cache -->
+  <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+  <meta http-equiv="Pragma" content="no-cache">
+  <meta http-equiv="Expires" content="0">
+{{- end -}}
 <!-- End Custom Favicon Links -->
